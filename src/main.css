@@ -42,19 +42,10 @@ html {
     @apply text-roxo font-semibold;
 }
 
-/* Animação
-[data-anime="fade"] {
-    opacity: 0;
-    transition: 2s;
+.conteudo:hover .imagem {
+  @apply opacity-30 scale-105
 }
 
-[data-anime="right"] {
-    opacity: 0;
-    transition: 2s;
-    transform: translate3d(300px, 0, 0);
+.conteudo:hover .detalhes {
+  @apply opacity-100
 }
-
-[data-anime].animate {
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
-} */

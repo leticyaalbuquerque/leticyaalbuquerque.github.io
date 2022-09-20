@@ -26,7 +26,8 @@
             href="#sobre">Sobre</a></li>
         <li><a id="link-portfolio"
             class="uppercase text-sm font-poppins hover:text-roxo hover:font-semibold text-gray-400"
-            href="#portfolio">Portfólio</a></li><!-- 
+            href="#portfolio">Portfólio</a></li>
+        <!-- 
         <li><a id="link-contato"
             class="uppercase text-sm font-poppins hover:text-roxo hover:font-semibold text-gray-400"
             href="#contato">Contato</a></li> -->
@@ -69,7 +70,9 @@
             <p class="font-light text-base text-cinza-navbar">Estou iniciando na carreira de programação. Atualmente
               estou estudando HTML, CSS e JavaScript.</p>
             <button type="button" name="Currículo"
-              class="bg-white mt-8 px-4 py-2 text-lg text-roxo text-center font-poppins font-semibold rounded-md drop-shadow-md hover:text-xl"><a href="https://drive.google.com/file/d/1MhrGsS9aZCL2tGXjWG69yzOp7OmEDRSf/view?usp=sharing" download="cv_leticia_rodrigues">Download CV</a></button>
+              class="bg-white mt-8 px-4 py-2 text-lg text-roxo text-center font-poppins font-semibold rounded-md drop-shadow-md hover:text-xl"><a
+                href="https://drive.google.com/file/d/1MhrGsS9aZCL2tGXjWG69yzOp7OmEDRSf/view?usp=sharing"
+                download="cv_leticia_rodrigues">Download CV</a></button>
           </div>
           <div class="flex justify-center">
             <img src="images/foto-05.png" class="rounded-full w-64 sm:w-80 md:w-96 lg:w-5/6">
@@ -85,7 +88,8 @@
         <div class="m-8 max-w-max">
           <img src="images/foto-2.jpeg" class="h-full object-cover rounded-md" data-anime="fade">
         </div>
-        <div class="my-8 mx-8 md:mr-16 md:ml-8 flex flex-col justify-center text-center md:text-start max-w-max" data-anime="right">
+        <div class="my-8 mx-8 md:mr-16 md:ml-8 flex flex-col justify-center text-center md:text-start max-w-max"
+          data-anime="right">
           <h2 class="text-2xl md:text-3xl font-poppins font-semibold pb-4 md:pb-6 text-roxo">Sobre mim</h2>
           <p class="text-base font-poppins font-light">
             Iniciei minha carreira online como Designer Gráfica e hoje estou migrando para a área de Desenvolvimento de
@@ -109,7 +113,7 @@
             <h5 class="pt-4 text-roxo font-medium">Html & CSS</h5>
           </div>
           <div class="flex flex-col p-3 sm:w-1/3 lg:w-1/4 items-center">
-            <div class="box progress-bar" data-progress="45"></div>
+            <div class="box progress-bar" data-progress="55"></div>
             <h5 class="pt-4 text-roxo font-medium">Javascript</h5>
           </div>
           <div class="flex flex-col p-3 sm:w-1/3 lg:w-1/4 items-center">
@@ -117,7 +121,7 @@
             <h5 class="pt-4 text-roxo font-medium">Bootstrap 5</h5>
           </div>
           <div class="flex flex-col p-3 sm:w-1/3 lg:w-1/4 items-center">
-            <div class="box progress-bar" data-progress="70"></div>
+            <div class="box progress-bar" data-progress="80"></div>
             <h5 class="pt-4 text-roxo font-medium">Tailwind CSS</h5>
           </div>
           <div class="flex flex-col p-3 sm:w-1/3 lg:w-1/4 items-center">
@@ -164,34 +168,66 @@
 
     <!-- Portfólio - Projetos -->
     <section class="bg-roxo" id="portfolio">
-      <div class="container mx-auto py-44">
-        <div class="text-center">
-          <h2 class="text-white font-poppins font-semibold text-4xl pb-2">Portfólio</h2>
-          <p class="text-white opacity-50 font-poppins font-normal">em desenvolvimento</p>
+      <div class="container mx-auto py-24">
+        <div class="flex flex-col justify-center items-center mb-12">
+          <h2 class="text-white font-poppins font-semibold text-4xl">Portfólio</h2>
+          <!-- <p class="text-white opacity-50 font-poppins font-normal">em desenvolvimento</p> -->
         </div>
-        <!-- <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-8">
-          <div class="bg-white rounded-md drop-shadow-md w-full h-72 hover:bg-white hover:opacity-50 cursor-pointer">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 px-8">
+          <div class="h-64 relative overflow-hidden rounded-md conteudo">
+            <img src="images/projeto-1.png" class="w-full h-full object-cover transition-all duration-500 relative align-top imagem" alt="Mockup do Projeto Jogo da Memória">
+            <div class="z-40 absolute top-0 right-0 w-full h-full opacity-0 transition-all duration-500 mt-24 md:mt-20 detalhes">
+              <h4 class="font-poppins font-medium text-white text-xl text-center">Jogo da Memória</h4>
+              <div class="flex justify-center gap-10 pt-6">
+                <a href="https://leticyaalbuquerque.github.io/projeto-jogo-da-memoria/">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M1.181 12C2.121 6.88 6.608 3 12 3c5.392 0 9.878 3.88 10.819 9-.94 5.12-5.427 9-10.819 9-5.392 0-9.878-3.88-10.819-9zM12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                      fill="rgba(255,255,255,1)" />
+                  </svg>
+                </a>
+                <a href="https://github.com/leticyaalbuquerque/projeto-jogo-da-memoria">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10z"
+                      fill="rgba(255,255,255,1)" />
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="bg-white rounded-md drop-shadow-md w-full h-72 hover:bg-white hover:opacity-50 cursor-pointer">
+          <div class="h-64 relative overflow-hidden rounded-md conteudo">
+            <img src="images/projeto-2.png" class="w-full h-full object-cover transition-all duration-500 relative align-top imagem" alt="Mockup do Projeto Jogo da Memória">
+            <div class="z-40 absolute top-0 right-0 w-full h-full opacity-0 transition-all duration-500 mt-24 md:mt-20 detalhes">
+              <h4 class="font-poppins font-medium text-white text-xl text-center">Calculadora</h4>
+              <div class="flex justify-center gap-10 pt-6">
+                <a href="https://leticyaalbuquerque.github.io/projeto-calculadora/">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M1.181 12C2.121 6.88 6.608 3 12 3c5.392 0 9.878 3.88 10.819 9-.94 5.12-5.427 9-10.819 9-5.392 0-9.878-3.88-10.819-9zM12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                      fill="rgba(255,255,255,1)" />
+                  </svg>
+                </a>
+                <a href="https://github.com/leticyaalbuquerque/projeto-calculadora">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10z"
+                      fill="rgba(255,255,255,1)" />
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="bg-white rounded-md drop-shadow-md w-full h-72 hover:bg-white hover:opacity-50 cursor-pointer">
-          </div>
-          <div class="bg-white rounded-md drop-shadow-md w-full h-72 hover:bg-white hover:opacity-50 cursor-pointer">
-          </div>
-          <div class="bg-white rounded-md drop-shadow-md w-full h-72 hover:bg-white hover:opacity-50 cursor-pointer">
-          </div>
-          <div class="bg-white rounded-md drop-shadow-md w-full h-72 hover:bg-white hover:opacity-50 cursor-pointer">
-          </div>
-          <div class="bg-white rounded-md drop-shadow-md w-full h-72 hover:bg-white hover:opacity-50 cursor-pointer">
-          </div>
-          <div class="bg-white rounded-md drop-shadow-md w-full h-72 hover:bg-white hover:opacity-50 cursor-pointer">
-          </div>
-        </div> -->
+        </div>
       </div>
     </section>
 
     <!-- Contato -->
-   <!--  <section class="bg-white" id="contato">
+    <!--  <section class="bg-white" id="contato">
       <div class="container mx-auto py-16">
           <div class="grid grid-cols-2 justify-center gap-4 lg:px-16 w-3/4 mx-auto">
           <input type="text" placeholder="Nome"
