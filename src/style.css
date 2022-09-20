@@ -1127,6 +1127,10 @@ html {
     display: flex;
   }
 
+  .sm\:h-full {
+    height: 100%;
+  }
+
   .sm\:w-80 {
     width: 20rem;
   }
