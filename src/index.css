@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a.active {
+    @apply text-cinza-escuro font-medium
+}
+
+.conteudo:hover .imagem {
+    @apply opacity-30 scale-105
+}
+
+.conteudo:hover .detalhes {
+    @apply opacity-100
+}
