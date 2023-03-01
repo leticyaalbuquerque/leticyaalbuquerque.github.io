@@ -6,7 +6,7 @@ export default function Home() {
             <div className="h-[400px] md:h-screen md:w-2/5 pt-20 md:pt-24 md:pb-14">
                 <img src="profile.jpg" alt="Imagem Letícia" className="h-full w-full rounded overflow-hidden object-cover object-top" />
             </div>
-            <div className="flex flex-col items-center md:items-start justify-center h-screen md:pt-24 pb-14 gap-3 md:gap-6">
+            <div className="flex flex-col items-center md:items-start justify-start md:justify-center h-screen md:pt-24 pb-14 gap-3 md:gap-6">
                 <h1 className="font-montserrat font-bold text-2xl lg:text-5xl text-center lg:text-start text-cinza-escuro">Letícia Rodrigues</h1>
                 <hr className="bg-cinza-escuro h-[3px] lg:h-1 w-10 lg:w-16" />
                 <p className="font-montserrat font-normal text-center lg:text-start text-base lg:text-2xl text-cinza-escuro">Desenvolvedora <span className="font-bold">Front End</span></p>
