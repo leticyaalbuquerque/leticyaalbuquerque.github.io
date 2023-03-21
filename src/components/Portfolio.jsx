@@ -6,6 +6,7 @@ import Projeto3 from "../assets/images/projeto-2.webp"
 import Projeto4 from "../assets/images/projeto-1.webp"
 import Projeto5 from "../assets/images/projeto-5.webp"
 import Projeto6 from "../assets/images/projeto-7.webp"
+import Projeto7 from "../assets/images/projeto-8.webp"
 
 export default function Portfolio() {
     return (
@@ -21,6 +22,14 @@ export default function Portfolio() {
                         descricao="Mockup Projeto Portfólio Danilo Ângelo"
                         name="Portfólio - Danilo Ângelo"
                         linkView="http://devniloblack.softwarecriativo.com.br/"
+                        iconEye={<AiFillEye className="fill-white w-7 h-7" />}
+                        hidden="hidden"/>
+
+                    <CardPortfolio
+                        img={Projeto7}
+                        descricao="Mockup Website Psicóloga Elizabete Araújo"
+                        name="Psicóloga - Elizabete Araújo"
+                        linkView="https://elizabetearaujo.com"
                         iconEye={<AiFillEye className="fill-white w-7 h-7" />}
                         hidden="hidden"/>
 
