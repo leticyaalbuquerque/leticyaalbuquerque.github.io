@@ -80,14 +80,14 @@ export default function Portfolio() {
                         linkGithub="https://github.com/leticyaalbuquerque/interactive-card-details-form"
                         iconGithub={<AiFillGithub className="fill-white w-7 h-7" />} />
 
-                    {/* <CardPortfolio
+                    <CardPortfolio
                         img={Projeto8}
                         descricao="Mockup do Projeto Contagem Regressiva"
                         name="Countdowm Timer"
-                        linkView="https://leticyaalbuquerque.github.io/interactive-card-details-form/"
+                        linkView="https://leticyaalbuquerque.github.io/countdown-timer/"
                         iconEye={<AiFillEye className="fill-white w-7 h-7" />}
-                        linkGithub="https://github.com/leticyaalbuquerque/countdowm-timer"
-                        iconGithub={<AiFillGithub className="fill-white w-7 h-7" />} /> */}
+                        linkGithub="https://github.com/leticyaalbuquerque/countdown-timer"
+                        iconGithub={<AiFillGithub className="fill-white w-7 h-7" />} />
 
                     <CardPortfolio
                         img={Projeto9}
