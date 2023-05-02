@@ -7,6 +7,8 @@ import Projeto4 from "../assets/images/projeto-1.webp"
 import Projeto5 from "../assets/images/projeto-5.webp"
 import Projeto6 from "../assets/images/projeto-7.webp"
 import Projeto7 from "../assets/images/projeto-8.webp"
+import Projeto8 from "../assets/images/projeto-9.webp"
+import Projeto9 from "../assets/images/projeto-10.webp"
 
 export default function Portfolio() {
     return (
@@ -23,7 +25,7 @@ export default function Portfolio() {
                         name="Portfólio - Danilo Ângelo"
                         linkView="http://devniloblack.softwarecriativo.com.br/"
                         iconEye={<AiFillEye className="fill-white w-7 h-7" />}
-                        hidden="hidden"/>
+                        hidden="hidden" />
 
                     <CardPortfolio
                         img={Projeto7}
@@ -31,7 +33,7 @@ export default function Portfolio() {
                         name="Psicóloga - Elizabete Araújo"
                         linkView="https://elizabetearaujo.com"
                         iconEye={<AiFillEye className="fill-white w-7 h-7" />}
-                        hidden="hidden"/>
+                        hidden="hidden" />
 
                     <CardPortfolio
                         img={Projeto2}
@@ -76,6 +78,24 @@ export default function Portfolio() {
                         linkView="https://leticyaalbuquerque.github.io/interactive-card-details-form/"
                         iconEye={<AiFillEye className="fill-white w-7 h-7" />}
                         linkGithub="https://github.com/leticyaalbuquerque/interactive-card-details-form"
+                        iconGithub={<AiFillGithub className="fill-white w-7 h-7" />} />
+
+                    {/* <CardPortfolio
+                        img={Projeto8}
+                        descricao="Mockup do Projeto Contagem Regressiva"
+                        name="Countdowm Timer"
+                        linkView="https://leticyaalbuquerque.github.io/interactive-card-details-form/"
+                        iconEye={<AiFillEye className="fill-white w-7 h-7" />}
+                        linkGithub="https://github.com/leticyaalbuquerque/countdowm-timer"
+                        iconGithub={<AiFillGithub className="fill-white w-7 h-7" />} /> */}
+
+                    <CardPortfolio
+                        img={Projeto9}
+                        descricao="Mockup do Projeto Rest Countries"
+                        name="REST Countries"
+                        linkView="https://github.com/leticyaalbuquerque/rest-countries"
+                        iconEye={<AiFillEye className="fill-white w-7 h-7" />}
+                        linkGithub="https://leticyaalbuquerque.github.io/rest-countries/"
                         iconGithub={<AiFillGithub className="fill-white w-7 h-7" />} />
                 </div>
             </div>
