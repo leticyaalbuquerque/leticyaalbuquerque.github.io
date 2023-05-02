@@ -93,9 +93,9 @@ export default function Portfolio() {
                         img={Projeto9}
                         descricao="Mockup do Projeto Rest Countries"
                         name="REST Countries"
-                        linkView="https://github.com/leticyaalbuquerque/rest-countries"
+                        linkView="https://leticyaalbuquerque.github.io/rest-countries/"
                         iconEye={<AiFillEye className="fill-white w-7 h-7" />}
-                        linkGithub="https://leticyaalbuquerque.github.io/rest-countries/"
+                        linkGithub="https://github.com/leticyaalbuquerque/rest-countries"
                         iconGithub={<AiFillGithub className="fill-white w-7 h-7" />} />
                 </div>
             </div>
